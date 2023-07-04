@@ -7,6 +7,7 @@ const route = express.Router();
 const usercontroller = require("../controller/usercontroller");
 const admincontroller = require("../controller/admincontroller");
 const blazercontroller = require("../controller/blazercontroller");
+const rentalcontroller = require("../controller/rentalcontroller");
 
 /***
  *
@@ -33,6 +34,12 @@ route.post("/api/blazer", blazercontroller.create);
 route.get("/api/blazer", blazercontroller.find);
 route.put("/api/blazer/:id", blazercontroller.update);
 route.delete("/api/blazer/:id", blazercontroller.delete);
+
+// GJ212P-36 API routes for rental
+route.post("/api/rental", rentalcontroller.create);
+route.get("/api/rental", rentalcontroller.find);
+route.put("/api/rental/:id", rentalcontroller.update);
+route.delete("/api/rental/:id", rentalcontroller.delete);
 
 
 module.exports = route;
