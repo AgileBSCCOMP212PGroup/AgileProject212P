@@ -1,4 +1,3 @@
-// GJ212P-30
 const mongoose = require('mongoose');
 
 var schema = new mongoose.Schema({
@@ -21,6 +20,6 @@ var schema = new mongoose.Schema({
     imageurl: String,
 });
 
-const BlazerUser = mongoose.model('blazeruser',schema)
+const BlazerAdmin = mongoose.model('blazeradmin',schema)
 
-module.exports= BlazerUser;
+module.exports= BlazerAdmin;

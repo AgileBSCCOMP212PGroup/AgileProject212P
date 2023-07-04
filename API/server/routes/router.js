@@ -14,7 +14,7 @@ const usercontroller = require("../controller/usercontroller");
 
 route.get("/", usercontroller.find);
 
-// API routes for users
+// GJ212P-30 API routes for users
 route.post("/api/users", usercontroller.create);
 route.get("/api/users", usercontroller.find);
 route.put("/api/users/:id", usercontroller.update);
