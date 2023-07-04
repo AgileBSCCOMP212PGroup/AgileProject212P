@@ -1,0 +1,1 @@
+// userid, rental start date,   rental end date, total cost, rental status
