@@ -1,0 +1,10 @@
+.navbar {
+    border-bottom: 2px solid #ccc;
+    padding: 10px 0;
+    background-color: #f8f9fa; /* Light gray background */
+  }
+  
+  .navbar-brand {
+    color: #ff5e3a; /* Reddish color for the brand text */
+  }
+  
