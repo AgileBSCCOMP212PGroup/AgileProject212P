@@ -9,23 +9,17 @@ import '../../css/style.css'
 
 function Header2() {
   return (
-//     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-//         <div class="container-xl">
-//           <a class="navbar-brand fw-bold" href="#">
-// Blazer Rental
-//           </a>
-//         </div>
-//       </nav>
+
 <nav class="fh5co-nav" role="navigation">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3 col-xs-2">
-					<div id="fh5co-logo"><a href="index.html">Shop.</a></div>
+					<div id="fh5co-logo"><a href="index.html">Blazor Rental</a></div>
 				</div>
 				<div class="col-md-6 col-xs-6 text-center menu-1">
 					<ul>
 						<li class="has-dropdown">
-							<a href="product.html">Shop</a>
+							<a href="product.html">Blazors</a>
 							<ul class="dropdown">
 								<li><a href="single.html">Single Shop</a></li>
 							</ul>
@@ -34,10 +28,7 @@ function Header2() {
 						<li class="has-dropdown">
 							<a href="services.html">Services</a>
 							<ul class="dropdown">
-								<li><a href="#">Web Design</a></li>
-								<li><a href="#">eCommerce</a></li>
-								<li><a href="#">Branding</a></li>
-								<li><a href="#">API</a></li>
+								<li><a href="#">Check More</a></li>
 							</ul>
 						</li>
 						<li><a href="contact.html">Contact</a></li>

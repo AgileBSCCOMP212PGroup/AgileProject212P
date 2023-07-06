@@ -1,5 +1,6 @@
 import React from 'react'
-import Header2 from '../components/header/header'
+import Header2 from './components/header/header'
+
 
 function HomePage() {
   return (
@@ -10,9 +11,9 @@ function HomePage() {
         <div className="container">
           <div className="row animate-box">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-              <span>Cool Stuff</span>
-              <h2>Products.</h2>
-              <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+              <span>Top Quality Blazors</span>
+              <h2>My Desings</h2>
+              <p>Desingerrss</p>
             </div>
           </div>
           <div className="row">
@@ -27,7 +28,7 @@ function HomePage() {
                   </div>
                 </div>
                 <div className="desc">
-                  <h3><a href="single.html">Hauteville Concrete Rocking Chair</a></h3>
+                  <h3><a href="single.html">Blazor 01</a></h3>
                   <span className="price">$350</span>
                 </div>
               </div>
@@ -44,7 +45,7 @@ function HomePage() {
                   </div>
                 </div>
                 <div className="desc">
-                  <h3><a href="single.html">Pavilion Speaker</a></h3>
+                  <h3><a href="single.html">Blazor 02</a></h3>
                   <span className="price">$600</span>
                 </div>
               </div>
@@ -60,7 +61,7 @@ function HomePage() {
                   </div>
                 </div>
                 <div className="desc">
-                  <h3><a href="single.html">Ligomancer</a></h3>
+                  <h3><a href="single.html">Blazor 03</a></h3>
                   <span className="price">$780</span>
                 </div>
               </div>
@@ -78,7 +79,7 @@ function HomePage() {
                   </div>
                 </div>
                 <div className="desc">
-                  <h3><a href="single.html">Alato Cabinet</a></h3>
+                  <h3><a href="single.html">Blazor 04</a></h3>
                   <span className="price">$800</span>
                 </div>
               </div>
@@ -94,7 +95,7 @@ function HomePage() {
                   </div>
                 </div>
                 <div className="desc">
-                  <h3><a href="single.html">Earing Wireless</a></h3>
+                  <h3><a href="single.html">Blazor 05</a></h3>
                   <span className="price">$100</span>
                 </div>
               </div>
@@ -110,7 +111,7 @@ function HomePage() {
                   </div>
                 </div>
                 <div className="desc">
-                  <h3><a href="single.html">Sculptural Coffee Table</a></h3>
+                  <h3><a href="single.html">Blazor 06</a></h3>
                   <span className="price">$960</span>
                 </div>
               </div>

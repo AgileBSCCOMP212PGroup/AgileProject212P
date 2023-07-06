@@ -7,6 +7,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Login from './login/login';
 import Register from './register/register';
+import HomePage from './HomePage';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <BrowserRouter>
       <Routes>
       <Route path="/" element={<Login/>}></Route>
-
+      <Route path="/home" element={<HomePage/>}></Route>
       <Route path="/register" element={<Register/>}></Route>
       </Routes>
       </BrowserRouter>
