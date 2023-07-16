@@ -32,6 +32,7 @@ exports.create = (req, res) => {
         description: req.body.description,
         priceperday: req.body.priceperday,
         availability: req.body.availability,
+        image: req.body.image
     });
 
     // Save the user in the database
